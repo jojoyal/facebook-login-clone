@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FaceBook-LogIn-Sample</title>
+    <link rel="stylesheet" href="fb.css" type="text/css">
+</head>
+<body>
+    <div class="container">
+      <div class="header">
+        <div class="logo">
+            <a class="logo-text" href="index.html">facebook</a>
+        </div>
+        <div class="login">
+            <form action="">
+                <table class="login-controls">
+                    <tr class="spacing">
+                        <td class="login-label"><label>Email or phone</label></td>
+                        <td class="login-label"><label>Password</label></td>
+                        <i class="fa fa-eye"></i>
+                    </tr>
+                    <tr class="spacing">
+                        <td><input type="text"></td>
+                        <td><input type="password"></td>
+                        <td><input class="login-button" type="submit" value="Log In"></td>
+                    </tr>
+                    <tr class="spacing">
+                        <td></td>
+                        <td><a class="forgotten-account" href="forgotten.html">Forgot Account?</a></td>
+                    </tr>
+                </table>
+            </form>
+        </div>
+      </div>
+        <div class="main-body">
+            <div class="left-section">
+                <p class="paragraph">Facebook helps you connect and share with the<br>people in your life.</p>
+                <img class="image" src="fb.png" alt="facebook-connecting the world illustration png.">
+            </div>
+            <div class="right-section">
+                <h1>Create an account</h1>
+                <p>It's quick and easy.</p>
+                <form class="signup-form" action="hey.html" id="signup-form">
+                  <div>
+                    <input name="fname" class="account-name" type="text" placeholder="First name" >
+                    <input name="sname" class="account-name" type="text" placeholder=" Surname">
+                  </div>
+                   <div class="signup-field">
+                    <input name="femail" class="account-login-data" type="email" placeholder="Mobile number or email address"><br>
+                    <input name="fpassword" class="account-login-data" id="signup-password" type="password" placeholder="New password">   
+                   </div>
+                <div class="signup-field">
+                    <p class="small-heading-text">Birthday</p>
+                    <select class="dropbox-birthday" name="bday" id="day">
+                        <option value="">Day</option>
+                        <option value="01">01</option>
+                        <option value="02">02</option>
+                        <option value="03">03</option>
+                        <option value="04">04</option>
+                        <option value="05">05</option>
+                        <option value="06">06</option>
+                        <option value="07">07</option>
+                        <option value="08">08</option>
+                        <option value="09">09</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select class="dropbox-birthday" name="bmonth" id="month">
+                        <option value="">Month</option>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="">Sep</option>
+                        <option value="">Oct</option>
+                        <option value="">Nov</option>
+                        <option value="">Dec</option>
+                    </select>
+
+                    <select class="dropbox-birthday" name="byear" id="year">
+                        <option value="">Year</option>
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                        <option value="">2019</option>
+                        <option value="">2018</option>
+                        <option value="">2017</option>
+                        <option value="">2016</option>
+                        <option value="">2015</option>
+                        <option value="">2014</option>
+                        <option value="">2013</option>
+                        <option value="">2012</option>
+                        <option value="">2011</option>
+                        <option value="">2010</option>
+                        <option value="">2009</option>
+                        <option value="">2008</option>
+
+                    </select>
+                </div>
+                
+                <div class="signup-field">
+
+                    <p class="small-heading-text">Gender</p><br>
+                    <input type="radio" name="gender" id="male" value="Male">
+                    <label for="male">Male</label>
+                    <input type="radio" name="gender" id="female" value="Female">
+                    <label for="female">Female</label>
+                    <input type="radio" name="gender" id="custom" value="Custom">
+                    <label for="other">Custom</label>
+                </div>
+
+                <p class="terms-conditions-declaration">By clicking Sign Up,you agree to our <a class="t-and-m-link" href="data-policy.html">Terms,Data Policy</a> and<br><a class="t-and-m-link" href="cookie-policy.html">Cookie Policy</a>. You may recieve SMS notifications from<br>us and can opt out at any time</p>
+                
+                <button class="sign-up" type="submit">Sign Up</button>
+
+            </form>
+                
+                <p class="fb-page-creation-notice"><a class="fb-page-creation-notice-link" href="create-page.html">Create a Page</a> for a celebrity, brand or business.</p>
+            
+            </div>
+        </div>
+
+        <div class="footer">
+            <p class="languages"> English(US) <a class="languages-link" href="fb-login-spanish.html"> Español</a>   <a class="languages-link" href="fb-login-french.html"> Français(France)</a>   <a class="languages-link" href="fb-login-chinese.html"> 中文(简体)</a>   <a class="languages-link" href="fb-login-arabic.html">العربية </a>   <a class="languages-link" href="fb-login-portugese.html"> Português(Brasil)</a>    <a class="languages-link" href="fb-login-italian.html"> Italiano</a>   <a class="languages-link" href="fb-login-korean.html"> 한국어</a>   <a class="languages-link" href="fb-login-dutch.html"> Deutsch</a>   <a class="languages-link" href="fb-login-hindi.html"> हिन्दी</a>   <a class="languages-link" href="fb-login-japanese.html"> 日本語</a></p> <button class="plus-language-button">+</button>
+            
+        <hr>
+            <p class="footer-links">Sign-Up Log-In Messenger Facebook-Lite Watch People Pages Page-Categories Places Games Locations Marketplace 
+                Groups Instagram  <br>Local Fundraisers Services About Create-Ad Create-Page Developers Careers Privacy Cookies Ad-Choices Terms Help Settings</p>
+        
+                <footer class="copyright">Facebook©2022</footer>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.1.js"
+    integrity="sha256-3zlB5s2uwoUzrXK3BT7AX3FyvojsraNFxCc2vC/7pNI="
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
